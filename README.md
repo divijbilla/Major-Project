@@ -1,4 +1,4 @@
-# Major-Project
+# Major-Project B - 212 Divij Billa RA1811003010597
 ## Instructions to run the code
 ###### Make sure to install all the requirements and libraries
 ###### For running the code type "python main.py" on the terminal.
