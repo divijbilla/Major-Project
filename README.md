@@ -1,2 +1,3 @@
 # Major-Project
-Major Project Code Files and instructions
+## Instructions to run the code
+
