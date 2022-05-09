@@ -1,0 +1,124 @@
+2022-05-08 22:25:29,662 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-08 22:25:30,718 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-05-08 22:25:30,726 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-08 22:25:31,089 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1652028930725&signature=64d5b71c44d22871fc32bc96001a18242af1e905c180dbe77a41ce9c123a99ef HTTP/1.1" 401 46
+2022-05-08 22:25:31,090 ERROR :: Error while making GET request to /fapi/v1/account: {'code': -2014, 'msg': 'API-key format invalid.'} (error code 401)
+2022-05-08 22:25:31,092 INFO :: Binance Futures Client successfully initialized
+2022-05-08 22:25:31,096 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-05-08 22:25:32,602 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 400 59
+2022-05-08 22:25:32,603 ERROR :: Error while making GET request to /api/v1/instrument/active: {'error': {'message': 'Missing API key.', 'name': 'HTTPError'}} (error code 400)
+2022-05-08 22:25:32,605 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-05-08 22:25:32,873 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 400 59
+2022-05-08 22:25:32,875 ERROR :: Error while making GET request to /api/v1/user/margin: {'error': {'message': 'Missing API key.', 'name': 'HTTPError'}} (error code 400)
+2022-05-08 22:25:32,876 INFO :: Bitmex Client successfully initialized
+2022-05-08 22:30:01,046 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-08 22:30:01,590 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-05-08 22:30:01,597 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-08 22:30:02,525 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1652029201596&signature=138c989fc4ee3a4be4ce4ee07b4e85f107f41d0fe0a6effdf8e10b6d19cb19a0 HTTP/1.1" 401 46
+2022-05-08 22:30:02,526 ERROR :: Error while making GET request to /fapi/v1/account: {'code': -2014, 'msg': 'API-key format invalid.'} (error code 401)
+2022-05-08 22:30:02,527 INFO :: Binance Futures Client successfully initialized
+2022-05-08 22:30:02,530 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-05-08 22:30:03,289 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 400 59
+2022-05-08 22:30:03,290 ERROR :: Error while making GET request to /api/v1/instrument/active: {'error': {'message': 'Missing API key.', 'name': 'HTTPError'}} (error code 400)
+2022-05-08 22:30:03,292 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-05-08 22:30:03,732 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 400 59
+2022-05-08 22:30:03,733 ERROR :: Error while making GET request to /api/v1/user/margin: {'error': {'message': 'Missing API key.', 'name': 'HTTPError'}} (error code 400)
+2022-05-08 22:30:03,735 INFO :: Bitmex Client successfully initialized
+2022-05-08 22:33:14,036 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-08 22:33:14,572 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-05-08 22:33:14,578 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-08 22:33:14,932 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1652029394577&signature=a759f2e879a621aa7f49e32056d6eb9677358b2c3146e40494d6799d74c1e2fb HTTP/1.1" 401 46
+2022-05-08 22:33:14,933 ERROR :: Error while making GET request to /fapi/v1/account: {'code': -2014, 'msg': 'API-key format invalid.'} (error code 401)
+2022-05-08 22:33:14,935 INFO :: Binance Futures Client successfully initialized
+2022-05-08 22:33:14,937 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-05-08 22:33:15,383 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 400 59
+2022-05-08 22:33:15,385 ERROR :: Error while making GET request to /api/v1/instrument/active: {'error': {'message': 'Missing API key.', 'name': 'HTTPError'}} (error code 400)
+2022-05-08 22:33:15,386 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-05-08 22:33:16,342 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 400 59
+2022-05-08 22:33:16,344 ERROR :: Error while making GET request to /api/v1/user/margin: {'error': {'message': 'Missing API key.', 'name': 'HTTPError'}} (error code 400)
+2022-05-08 22:33:16,345 INFO :: Bitmex Client successfully initialized
+2022-05-08 22:35:35,260 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-08 22:35:35,937 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-05-08 22:35:35,943 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-08 22:35:36,488 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1652029535942&signature=402774c6474b76c8d9977b2266a07cc415b09f3d818b039392e442db36ff6bd4 HTTP/1.1" 401 46
+2022-05-08 22:35:36,489 ERROR :: Error while making GET request to /fapi/v1/account: {'code': -2014, 'msg': 'API-key format invalid.'} (error code 401)
+2022-05-08 22:35:36,491 INFO :: Binance Futures Client successfully initialized
+2022-05-08 22:35:36,494 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-05-08 22:35:36,974 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 400 59
+2022-05-08 22:35:36,975 ERROR :: Error while making GET request to /api/v1/instrument/active: {'error': {'message': 'Missing API key.', 'name': 'HTTPError'}} (error code 400)
+2022-05-08 22:35:36,978 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-05-08 22:35:37,343 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 400 59
+2022-05-08 22:35:37,345 ERROR :: Error while making GET request to /api/v1/user/margin: {'error': {'message': 'Missing API key.', 'name': 'HTTPError'}} (error code 400)
+2022-05-08 22:35:37,346 INFO :: Bitmex Client successfully initialized
+2022-05-08 22:36:52,509 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-08 22:36:53,336 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-05-08 22:36:53,342 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-08 22:36:53,727 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1652029613340&signature=c6415a6771fd3b14e6448191c3fca464b37a2144aefc2d8b0514c211103ed271 HTTP/1.1" 401 46
+2022-05-08 22:36:53,728 ERROR :: Error while making GET request to /fapi/v1/account: {'code': -2014, 'msg': 'API-key format invalid.'} (error code 401)
+2022-05-08 22:36:53,729 INFO :: Binance Futures Client successfully initialized
+2022-05-08 22:36:53,732 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-05-08 22:36:54,079 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 400 59
+2022-05-08 22:36:54,081 ERROR :: Error while making GET request to /api/v1/instrument/active: {'error': {'message': 'Missing API key.', 'name': 'HTTPError'}} (error code 400)
+2022-05-08 22:36:54,083 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-05-08 22:36:54,340 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 400 59
+2022-05-08 22:36:54,342 ERROR :: Error while making GET request to /api/v1/user/margin: {'error': {'message': 'Missing API key.', 'name': 'HTTPError'}} (error code 400)
+2022-05-08 22:36:54,343 INFO :: Bitmex Client successfully initialized
+2022-05-08 23:34:58,477 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-08 23:34:59,681 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-05-08 23:34:59,688 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-08 23:35:00,978 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1652033099686&signature=9f4970ddd1cbab309a7d67b034b205ad3f5e059aec1bc092649176209ade563e HTTP/1.1" 401 46
+2022-05-08 23:35:00,979 ERROR :: Error while making GET request to /fapi/v1/account: {'code': -2014, 'msg': 'API-key format invalid.'} (error code 401)
+2022-05-08 23:35:00,980 INFO :: Binance Futures Client successfully initialized
+2022-05-08 23:35:00,983 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-05-08 23:35:02,431 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 400 59
+2022-05-08 23:35:02,432 ERROR :: Error while making GET request to /api/v1/instrument/active: {'error': {'message': 'Missing API key.', 'name': 'HTTPError'}} (error code 400)
+2022-05-08 23:35:02,434 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-05-08 23:35:03,408 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 400 59
+2022-05-08 23:35:03,410 ERROR :: Error while making GET request to /api/v1/user/margin: {'error': {'message': 'Missing API key.', 'name': 'HTTPError'}} (error code 400)
+2022-05-08 23:35:03,411 INFO :: Bitmex Client successfully initialized
+2022-05-08 23:37:17,513 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-08 23:37:19,153 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/ticker/bookTicker?symbol=BTCUSDT HTTP/1.1" 200 None
+2022-05-08 23:38:35,896 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-08 23:38:36,947 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/ticker/bookTicker?symbol=ETHUSDT HTTP/1.1" 200 None
+2022-05-08 23:40:32,476 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-08 23:40:33,715 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/klines?symbol=1000SHIBUSDT&interval=30m&limit=1000 HTTP/1.1" 200 None
+2022-05-08 23:40:33,720 ERROR :: Websocket error while subscribing to @bookTicker and @aggTrade: 'BinanceClient' object has no attribute 'ws'
+2022-05-08 23:40:33,721 ERROR :: Websocket error while subscribing to @bookTicker and @aggTrade: 'BinanceClient' object has no attribute 'ws'
+2022-05-08 23:40:49,152 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-08 23:40:50,405 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/klines?symbol=1000SHIBUSDT&interval=30m&limit=1000 HTTP/1.1" 200 None
+2022-05-08 23:44:27,106 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-08 23:44:28,461 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/ticker/bookTicker?symbol=ETHBUSD HTTP/1.1" 400 97
+2022-05-08 23:44:28,462 ERROR :: Error while making GET request to /fapi/v1/ticker/bookTicker: {'code': -4108, 'msg': 'Symbol is on delivering or delivered or settling or closed or pre-trading.'} (error code 400)
+2022-05-08 23:44:29,965 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-08 23:44:30,779 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/ticker/bookTicker?symbol=ETHBUSD HTTP/1.1" 400 97
+2022-05-08 23:44:30,781 ERROR :: Error while making GET request to /fapi/v1/ticker/bookTicker: {'code': -4108, 'msg': 'Symbol is on delivering or delivered or settling or closed or pre-trading.'} (error code 400)
+2022-05-08 23:44:32,294 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-08 23:44:32,982 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/ticker/bookTicker?symbol=ETHBUSD HTTP/1.1" 400 97
+2022-05-08 23:44:32,983 ERROR :: Error while making GET request to /fapi/v1/ticker/bookTicker: {'code': -4108, 'msg': 'Symbol is on delivering or delivered or settling or closed or pre-trading.'} (error code 400)
+2022-05-08 23:44:34,496 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-08 23:44:35,522 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/ticker/bookTicker?symbol=ETHBUSD HTTP/1.1" 400 97
+2022-05-08 23:44:35,524 ERROR :: Error while making GET request to /fapi/v1/ticker/bookTicker: {'code': -4108, 'msg': 'Symbol is on delivering or delivered or settling or closed or pre-trading.'} (error code 400)
+2022-05-08 23:44:37,037 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-08 23:44:37,707 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/ticker/bookTicker?symbol=ETHBUSD HTTP/1.1" 400 97
+2022-05-08 23:44:37,708 ERROR :: Error while making GET request to /fapi/v1/ticker/bookTicker: {'code': -4108, 'msg': 'Symbol is on delivering or delivered or settling or closed or pre-trading.'} (error code 400)
+2022-05-08 23:44:39,221 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-08 23:44:40,132 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/ticker/bookTicker?symbol=ETHBUSD HTTP/1.1" 400 97
+2022-05-08 23:44:40,133 ERROR :: Error while making GET request to /fapi/v1/ticker/bookTicker: {'code': -4108, 'msg': 'Symbol is on delivering or delivered or settling or closed or pre-trading.'} (error code 400)
+2022-05-08 23:44:41,637 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-08 23:44:42,396 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/ticker/bookTicker?symbol=ETHBUSD HTTP/1.1" 400 97
+2022-05-08 23:44:42,398 ERROR :: Error while making GET request to /fapi/v1/ticker/bookTicker: {'code': -4108, 'msg': 'Symbol is on delivering or delivered or settling or closed or pre-trading.'} (error code 400)
+2022-05-08 23:44:43,914 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-08 23:44:44,530 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/ticker/bookTicker?symbol=ETHBUSD HTTP/1.1" 400 97
+2022-05-08 23:44:44,531 ERROR :: Error while making GET request to /fapi/v1/ticker/bookTicker: {'code': -4108, 'msg': 'Symbol is on delivering or delivered or settling or closed or pre-trading.'} (error code 400)
+2022-05-08 23:44:46,041 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-08 23:44:46,658 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/ticker/bookTicker?symbol=ETHBUSD HTTP/1.1" 400 97
+2022-05-08 23:44:46,660 ERROR :: Error while making GET request to /fapi/v1/ticker/bookTicker: {'code': -4108, 'msg': 'Symbol is on delivering or delivered or settling or closed or pre-trading.'} (error code 400)
+2022-05-08 23:44:48,164 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-08 23:44:49,144 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/ticker/bookTicker?symbol=ETHBUSD HTTP/1.1" 400 97
+2022-05-08 23:44:49,145 ERROR :: Error while making GET request to /fapi/v1/ticker/bookTicker: {'code': -4108, 'msg': 'Symbol is on delivering or delivered or settling or closed or pre-trading.'} (error code 400)
+2022-05-09 00:00:58,130 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-09 00:00:59,019 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/klines?symbol=BTCUSDT&interval=1m&limit=1000 HTTP/1.1" 200 None
+2022-05-09 00:00:59,066 ERROR :: Websocket error while subscribing to @bookTicker and @aggTrade: 'BinanceClient' object has no attribute 'ws'
+2022-05-09 00:00:59,068 ERROR :: Websocket error while subscribing to @bookTicker and @aggTrade: 'BinanceClient' object has no attribute 'ws'
+2022-05-09 00:01:54,450 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-09 00:01:55,115 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/klines?symbol=BTCUSDT&interval=1m&limit=1000 HTTP/1.1" 200 None
